@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Local reference docs
+.reference/
+
 # C extensions
 *.so
 
@@ -47,6 +50,23 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Session files (continuity)
+session-summary.txt
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# mypy
+.mypy_cache/
 
 # Translations
 *.mo
